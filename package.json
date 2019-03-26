@@ -21,5 +21,11 @@
     "aws-serverless-express": "^3.3.5",
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "serverless-offline": "^4.9.2",
+    "serverless-webpack": "^5.2.0",
+    "webpack": "^4.29.6",
+    "webpack-node-externals": "^1.7.2"
   }
 }
