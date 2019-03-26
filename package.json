@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/myungjaeyu/e-commerce-starter/issues"
   },
-  "homepage": "https://github.com/myungjaeyu/e-commerce-starter#readme"
+  "homepage": "https://github.com/myungjaeyu/e-commerce-starter#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
 }
