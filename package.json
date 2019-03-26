@@ -23,8 +23,11 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "ava": "^1.4.0",
+    "esm": "^3.2.20",
     "serverless-offline": "^4.9.2",
     "serverless-webpack": "^5.2.0",
+    "supertest": "^4.0.2",
     "webpack": "^4.29.6",
     "webpack-node-externals": "^1.7.2"
   }
