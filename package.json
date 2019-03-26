@@ -1,5 +1,5 @@
 {
-  "name": "e-commerce-starter",
+  "name": "serverless-ecommerce",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myungjaeyu/e-commerce-starter.git"
+    "url": "git+https://github.com/myungjaeyu/serverless-ecommerce.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/myungjaeyu/e-commerce-starter/issues"
+    "url": "https://github.com/myungjaeyu/serverless-ecommerce/issues"
   },
-  "homepage": "https://github.com/myungjaeyu/e-commerce-starter#readme",
+  "homepage": "https://github.com/myungjaeyu/serverless-ecommerce#readme",
   "dependencies": {
     "aws-serverless-express": "^3.3.5",
     "body-parser": "^1.18.3",
