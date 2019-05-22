@@ -1,7 +1,14 @@
 import test from 'ava'
+import request from 'supertest'
 
-test('GET', async t => {
+import app from '../src/server'
 
-    t.is(1, 1)
+test('GET /orders', async t => {
+
+    const res = await request(app)
+                        .get('/orders')
+
+    t.is(res.status, 200)
+    t.is(res.body.message, 'orders')
 
 })
