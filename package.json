@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/myungjaeyu/serverless-ecommerce#readme",
   "dependencies": {
+    "aws-sdk": "^2.460.0",
     "aws-serverless-express": "^3.3.5",
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
