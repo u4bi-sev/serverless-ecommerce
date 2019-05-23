@@ -28,7 +28,8 @@
     "aws-serverless-express": "^3.3.5",
     "body-parser": "^1.18.3",
     "dynamoose": "^1.7.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "shortid": "^2.2.14"
   },
   "devDependencies": {
     "ava": "^1.4.0",
