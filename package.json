@@ -29,6 +29,7 @@
     "body-parser": "^1.18.3",
     "dynamoose": "^1.7.3",
     "express": "^4.16.4",
+    "express-session": "^1.16.1",
     "shortid": "^2.2.14"
   },
   "devDependencies": {
