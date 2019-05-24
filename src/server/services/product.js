@@ -11,13 +11,24 @@ export default {
         return Product.scan().exec()
 
     },
+    getCategoryProducts : (category_id) => {
+
+        return new Promise(resolve => {
+
+            Product.scan('category_id')
+                .eq(category_id)
+                .exec((err, products) => resolve(err ? [] : products))
+            
+        })
+
+    },
     create : (product_model) => {
 
         return new Promise(resolve => {
 
             const product = new Product(product_model)
 
-            product.save(err => resolve({ failure : err, data }))
+            product.save(err => resolve({ failure : err, data : product_model }))
 
         })
 
