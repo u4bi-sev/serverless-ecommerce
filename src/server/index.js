@@ -1,5 +1,6 @@
 import express from 'express'
 import bodyParser from 'body-parser'
+import session from 'express-session'
 import routes from './routes'
 
 const server = express()
@@ -7,6 +8,7 @@ const server = express()
 server
     .use(bodyParser.json())
     .use(bodyParser.urlencoded({ extended : true }))
+    .use(session({ secret : '1' }))
     .use('/products', routes.products)
     .use('/reviews', routes.reviews)
     .use('/orders', routes.orders)
